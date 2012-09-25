@@ -4,7 +4,7 @@ Medill School of Journalism
 Fall 2012
 
 ##### Class Time: 
-Thurs. 6-8:50 p.m.
+Thurs. 6-9 p.m.
 
 ##### Instructor: 
 [Derek Willis](http://blog.thescoop.org/about/)
