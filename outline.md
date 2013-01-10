@@ -3,24 +3,38 @@ Course Outline
 
 Note: this outline is subject to change; if it does, students will be notified. 
 
-Sept. 27 – Course Introduction; Intro to Data; Excel Skills
+Jan. 10 – Course Introduction; Intro to Data; Excel Skills
 
-Oct. 4 – Text Visualization; Excel for Analysis
+Jan. 17 – Unstructured data; Text Visualization; Basic visualizations
 
-Oct. 11 – Working with election data; Excel Visualization
+Jan. 24 – Excel formulas, Basic charting, Election results data
 
-Oct. 15 (note date change!) – Database Skills – Importing and querying; Critique due
+Jan. 31 - Database Skills – Importing and querying; Campaign Finance data; Critique due
 
-Oct. 25 – Database Skills – Aggregates and Joins; Graphic visualization for reporting
+Feb. 7 – Database Skills – Summarizing Data; More Campaign Finance Data
 
-Nov. 1 – Working with campaign finance data; SQL Joins; Midterm due
+Feb. 14 – SQL Joins; Congressional voting data
 
-Nov. 8 – Mapping; Working with PDFs
+Feb. 21 – Fuzzy SQL; SQL's Other Parts; More Congressional data; 2nd Critique due
 
-Nov. 15 – Working with congressional data; in-class time for working on final projects; possible guest speaker
+Feb. 28 – Guest Speaker: Alex Lundry
 
-Nov. 22 – Thanksgiving - NO CLASS 
+March 7 – Spring Break - NO CLASS 
 
-Nov. 29 – TBA
+March 14 - Cleaning dirty data; Mapping; Midterm Data Analysis due
 
-Dec. 6 - Final projects and audit due; wrap-up
+March 21 - Working with PDFs; Fusion Tables; Military data
+
+March 28 - Easter Break - NO CLASS
+
+April 4 - Census Data; Writing and Editing with Data
+
+April 11 - Structured Web Data; Pattern Matching; IRS Data
+
+April 18 - Basic Programming; Transportation Data; In-class Project Work
+
+April 25 - Real-Time Data; Using APIs; In-class Project Work
+
+May 2 - Study Days - NO CLASS
+
+May 9 - Project Presentations; Wrap-up

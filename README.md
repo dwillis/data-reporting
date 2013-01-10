@@ -1,10 +1,8 @@
-Digital Frameworks for Reporting
-JOUR 490
-Medill School of Journalism
-Fall 2012
+MPJO-722-01: Data Reporting
+Georgetown University: MPS-Journalism
 
 ##### Class Time: 
-Thurs. 6-9 p.m.
+Thurs. 5:20-7:50 p.m.
 
 ##### Instructor: 
 [Derek Willis](http://blog.thescoop.org/about/)
@@ -13,9 +11,9 @@ Thurs. 6-9 p.m.
 The best way to reach me is by email at dwillis AT gmail.com. My AIM is derekpwillis. If you see me online and available, feel free to ask. If my status is anything but available, try email instead.
 
 ##### Course Objective: 
-The objective of this course is to familiarize students with digital tools that will become the frameworks with which they can approach storytelling, emphasizing the use of structured data and the visualization of data to aid in the understanding of complex information. The course establishes a deep understanding of the basic principles with which government collects and distributes information, with an emphasis on a new set of tools that are allowing the public greater access to and interaction with data than ever before. Students will use basic visualization tools to find the story hidden in the data and then apply that by determining the most appropriate platform for storytelling that will engage an audience. The course will highlight emerging database tools and familiarize students with how to design interfaces that can differentiate their reporting.
+The world that we live in and report on is increasingly influenced by data. This course will help you use data to find and develop stories that can’t be found in other ways. Data can be anything: spreadsheets full of numbers, the text of speeches or the measured observations of daily life. Reporters need to be able to treat data as another source to be researched, interviewed and analyzed, using the right tool for the job. Beginning with spreadsheets and continuing to databases, basic mapping and rudimentary programming, this class will make working with data a part of your skill set.
 
-While students will examine a variety of government data, they will spend most of their time working with data involving the 2012 election. These will be obtained from a variety of sources. The final project described below will encompass some or all of the datasets we work with in class, but the students will choose their own areas of focus.
+This is a skills-based course, so students will need to be comfortable with learning to use computer software beyond word processors. If you are wondering if you can do this stuff, you can. You may prefer interviewing people to data, but avoiding data - particularly for Washington journalists - is no longer an option.
 
 ##### Readings: 
 There are no textbooks for this course. We will have weekly readings chosen from professional data work, government documents, blog posts and other sources. Students will be expected to discuss these readings in class.
@@ -39,7 +37,4 @@ Students will obtain and analyze federal government data and write a story memo 
 Each student will, as part of the story memo project, undertake a study of the data offerings of the agency that produced the data set used for the story memo. This study will result in a short paper assessing the scope, quality and accessibility of the agency’s data, how it has been used by journalists and how it could be used. The paper should also identify opportunities for agencies to release or organize data of public interest. This paper constitutes 10 percent of each student’s grade.
 
 ##### Attendance and participation: 
-Journalism is not a passive activity and requires focus, inquisition and involvement. We will be discussing professional work, writings and data issues every week, and I expect your comments, questions and other contributions to our class. None of this can happen if you don’t show up. These factors constitute 15 percent of your final grade.
-
-##### Academic Integrity: 
-Medill has an [academic integrity code](http://www.medill.northwestern.edu/students/students.aspx?id=60573). You should read it, even if you’re not intending to violate it. Academic dishonesty will not be tolerated and will result in a failing grade for that assignment; as in professional journalism, you are responsible for doing your own work.
+Journalism is not a passive activity and requires focus, inquisition and involvement. We will be discussing professional work, writings and data issues every week, and I expect your comments, questions and other contributions to our class. None of this can happen if you don’t show up. If you must miss a class, please try to let the instructor know in advance. You will be responsible for any work you miss.
