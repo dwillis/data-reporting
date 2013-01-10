@@ -1,5 +1,5 @@
-MPJO-722-01: Data Reporting
-Georgetown University: MPS-Journalism
+##### MPJO-722-01: Data Reporting
+##### Georgetown University: MPS-Journalism
 
 ##### Class Time: 
 Thurs. 5:20-7:50 p.m.
