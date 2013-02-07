@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Data Reporting :: Feb. 7, 2013</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="javascripts/scale.fix.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1 class="header">Data Reporting</h1>
+        <p class="header">Course materials for MPJO-722-01, Georgetown University</p>
+
+        <ul>
+		  <li><a class="buttons" href="index.html">Syllabus</a></li>
+          <li><a class="buttons" href="outline.html">Course Outline</a></li>
+          <li><a class="buttons github" href="https://github.com/dwillis/data-reporting">View On GitHub</a></li>
+        </ul>
+
+        <p class="header">This project is maintained by <a class="header name" href="https://github.com/dwillis">dwillis</a></p>
+
+
+      </header>
+      <section>
+        <h5>MPJO-722-01: Data Reporting</h5>
+		
+		<h5>Database Skills – Importing and querying; Campaign Finance data</h5>
+				
+		<h5>Links</h5>
+
+		<ul>
+		  <li><a href="https://addons.mozilla.org/en-US/firefox/addon/5817">Firefox SQLite Add-on</a></li>
+  		<li><a href="https://github.com/tthibo/SQL-Tutorial/blob/master/tutorial_files/part1.textile">SQLite Tutorial</a></li>
+  		<li><a href="http://www.fec.gov/data/">FEC Data Catalog</a></li>
+  		<li><a href="http://www.forjournalists.com/media/senate_votes.sqlite">Senate votes db</a></li>
+		</ul>
+		
+		<h5>Assignments for Feb. 14</h5>
+		
+		Read: <a href="http://www.nytimes.com/2010/11/06/us/politics/06ethics.html">Political Funds Remain an Asset for Many Ex-Lawmakers</a><br/>
+		
+    <p><strong>SQL</strong>: Complete <a href="https://github.com/tthibo/SQL-Tutorial/blob/master/tutorial_files/part2.textile">Part 2 of the SQLite tutorial</a>. It’s long; start early.
+
+    <p><strong>SQL</strong>: Create a new database called fec (the .sqlite gets added on when you create it). Download this CSV file of contributors to Wisconsin Rep. Tammy Baldwin during the second quarter of 2011. Import it into the fec database, creating a table called baldwin. Look at the CSV file in Excel before you define the fields in SQLite – be sure to define the zip field as VARCHAR, not INTEGER. Just define the date field as VARCHAR for now.</p>
+      <p>Once you’ve done that, write queries to do the following:</p>
+      <ol>
+        <li>Show the contributors from Hawaii</li>
+        <li>Show contributors from Philadelphia who gave at least $1,000</li>
+        <li>Show contributors who listed their occupation as CEO, with the largest amount first</li>
+      </ol>
+    
+    <p>Email me both the fec.sqlite file as an attachment (don't export the data) and the SQL from your queries (I can check the results) by 5:20 p.m. on Feb. 14.</p>
+
+      </section>
+      <footer>
+        <p><small>Hosted on <a href="https://pages.github.com">GitHub Pages</a> using the Dinky theme</small></p>
+      </footer>
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+		
+  </body>
+</html>
