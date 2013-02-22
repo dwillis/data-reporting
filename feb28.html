@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Data Reporting :: Feb. 28, 2013</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="javascripts/scale.fix.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1 class="header">Data Reporting</h1>
+        <p class="header">Course materials for MPJO-722-01, Georgetown University</p>
+
+        <ul>
+		  <li><a class="buttons" href="index.html">Syllabus</a></li>
+          <li><a class="buttons" href="outline.html">Course Outline</a></li>
+          <li><a class="buttons github" href="https://github.com/dwillis/data-reporting">View On GitHub</a></li>
+        </ul>
+
+        <p class="header">This project is maintained by <a class="header name" href="https://github.com/dwillis">dwillis</a></p>
+
+
+      </header>
+      <section>
+        <h5>MPJO-722-01: Data Reporting</h5>
+		
+		<h5>Guest Speaker: Alex Lundry</h5>
+				
+		<h5>Links</h5>
+		
+		<h5>Assignments for March 14</h5>
+		
+		<p><strong>Story Memo Idea</strong>: Send me some areas or topics or even questions you might like to answer using data.</p>
+		
+    <p><strong>Midterm</strong>: The midterm consists of an Excel assignment and a SQLite assignment.</p>
+    
+    <p><strong>Excel</strong>: Download <a href="https://www.strongspace.com/shared/txbp1u8ang">this CSV</a> of Census data from U.S. congressional districts and open it in Excel. Each of you has been <a href="https://gist.github.com/dwillis/5016672">assigned a state</a> to focus on. Using a filter, isolate the rows for your state, and then do the following:</p>
+    
+    <ol>
+      <li>Create a column to calculate each district's percentage of the total population that the 20-24 year-old age range represents. Which district has the highest percentage of 20-24 year olds?</li>
+      <li>Do the same thing for Veteran Status:Civilian Veterans. Which district has the lowest percentage of civilian veterans?</li>
+      <li>Do the same for Male & Female. Which district has the largest percentage gap between men and women?</li>
+      <li>Create a row for your state and calculate the average number of people with a bachelor's degree for the state as a whole, and then add a column to calculate the difference between each district and the average.</li>
+    </ol>
+
+    <p><strong>SQL</strong>: Continuing with the senate voting database, write SQL to answer the following questions. You will need to study the fields in your tables. Send me both your queries and your sqlite data file.</p>
+      <ol>
+        <li>How many votes were decided by less than 10 votes?</li>
+        <li>Show each vote result and how many times it occurred.</li>
+        <li>How many votes have all Republicans voting "No" and all Democrats voting "Yes"? (hint: all "No" votes means how many "Yes" votes?)</li>
+        <li>How many votes on cloture motions were agreed to?</li>
+        <li>What is the average number of Republican No votes on a vote where the question is On Passage of the Bill?</li>
+        <li>Which senator has missed the most votes (the position is "Not Voting")? (you'll need a join for this one)</li>
+      </ol>
+    
+    <p>Email me the excel file with your "answers" in bold, the votes.sqlite file as an attachment (don't export the data) and the SQL from your queries by 5:20 p.m. on March 14.</p>
+
+      </section>
+      <footer>
+        <p><small>Hosted on <a href="https://pages.github.com">GitHub Pages</a> using the Dinky theme</small></p>
+      </footer>
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+		
+  </body>
+</html>
