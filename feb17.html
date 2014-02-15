@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Data Reporting :: Feb. 17, 2013</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="javascripts/scale.fix.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1 class="header">Data Reporting</h1>
+        <p class="header">Course materials for MPJO-722-01, Georgetown University</p>
+
+        <ul>
+		  <li><a class="buttons" href="index.html">Syllabus</a></li>
+          <li><a class="buttons" href="outline.html">Course Outline</a></li>
+          <li><a class="buttons github" href="https://github.com/dwillis/data-reporting">View On GitHub</a></li>
+        </ul>
+
+        <p class="header">This project is maintained by <a class="header name" href="https://github.com/dwillis">dwillis</a></p>
+
+
+      </header>
+      <section>
+        <h5>MPJO-722-01: Data Reporting</h5>
+		
+		<h5>Database Skills – Summarizing Data; More Campaign Finance Data</h5>
+				
+		<h5>Links</h5>
+
+		<ul>
+		  <li><a href="http://www.fec.gov/data/">FEC Data Catalog</a></li>
+		  <li><a href="http://www.fec.gov/disclosurehs/hsnational.do">House & Senate Campaign Finance</a></li>
+		  <li><a href="http://www.w3schools.com/sql/sql_wildcards.asp">SQL Wildcards</a></li>
+		  <li><a href="http://www.w3schools.com/sql/sql_groupby.asp">SQL Group By</a></li>
+		  <li><a href="http://www.washingtonpost.com/wp-dyn/content/article/2010/11/09/AR2010110900153.html">Angle, McMahon led way spending $97 per vote - and lost</a></li>
+		  <li><a href="http://reporting.sunlightfoundation.com/2013/super-pac-consultants/">20 consulting firms churn 80 percent of super PAC cash</a></li>
+		</ul>
+		
+		<h5>Assignments for Feb. 21</h5>
+		
+    <p><strong>SQL</strong>: Complete <a href="https://github.com/tthibo/SQL-Tutorial/blob/master/tutorial_files/part3.textile">Part 3 of the SQLite tutorial</a>. It’s long; start early.
+
+    <p><strong>SQL</strong>: Using your existing fec.sqlite file, download <a href="https://www.strongspace.com/shared/k2avxajk0l">this CSV file</a> of expenditures by the Senate campaign of Josh Mandel. Import it into the fec database, creating a table called mandel. Look at the CSV file in Excel before you define the fields in SQLite – be sure to define the zip field as VARCHAR, not INTEGER. Define the amount, month, day and year fields as INTEGER.</p>
+      <p>Once you’ve done that, write queries to do the following, using wildcards (but not always) and GROUP BY:</p>
+      <ol>
+        <li>Show the total amount of money spent in each state.</li>
+        <li>Show the total amount for each purpose, with the largest amount first.</li>
+        <li>Show the total amount of any expenditures related to direct mail.</li>
+        <li>Show the total amount spent for each month and year, with the largest amount first</li>
+        <li>Show the recipients and total amounts for Payroll expenses, but not payroll taxes or fees.</li>
+      </ol>
+    
+    <p>Email me both the fec.sqlite file as an attachment (don't export the data) and the SQL from your queries (I can check the results) by 5:20 p.m. on Feb. 20.</p>
+
+      </section>
+      <footer>
+        <p><small>Hosted on <a href="https://pages.github.com">GitHub Pages</a> using the Dinky theme</small></p>
+      </footer>
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+		
+  </body>
+</html>
