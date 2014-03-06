@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Data Reporting :: March 6, 2013</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="javascripts/scale.fix.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1 class="header">Data Reporting</h1>
+        <p class="header">Course materials for MPJO-722-01, Georgetown University</p>
+
+        <ul>
+		  <li><a class="buttons" href="index.html">Syllabus</a></li>
+          <li><a class="buttons" href="outline.html">Course Outline</a></li>
+          <li><a class="buttons github" href="https://github.com/dwillis/data-reporting">View On GitHub</a></li>
+        </ul>
+
+        <p class="header">This project is maintained by <a class="header name" href="https://github.com/dwillis">dwillis</a></p>
+
+
+      </header>
+      <section>
+        <h5>MPJO-722-01: Data Reporting</h5>
+		
+		<h5>Working with PDFs; Fusion Tables; Military data</h5>
+				
+		<h5>Links</h5>
+		<ul>
+		  <li><a href="http://www.peacecorps.gov/media/forpress/press/2327/">2014 Peace Corps Rankings</a>, <a href="https://www.google.com/search?aq=2&oq=peace+corps+college&sourceid=chrome&ie=UTF-8&q=peace+corps+college+rankings">coverage</a></li>
+		  <li><a href="http://www.peacecorps.gov/media/forpress/press/2186/">2013 Peace Corps Rankings</a></li>
+		  <li><a href="http://www.bluem.net/files/pdftotext.dmg">Mac binary for xPDF</a> | <a href="ftp://ftp.foolabs.com/pub/xpdf/xpdfbin-win-3.03.zip">Win binary for xPDF</a></li>
+      <li><a href="https://www.dmdc.osd.mil/appj/dwp/reports.do?category=reports&subCat=milActDutReg">Military Personnel Statistics</a></li>
+      <li><a href="http://www.bostonglobe.com/news/nation/2012/07/29/century-data-and-destruction-chronicled-air-force-officer/5m2HK2CP9UcwwJzMhtdQOO/story.html">Bomb Database</a></li>
+      <li><a href="http://www.va.gov/vetdata/Veteran_Population.asp">Veteran Population</a></li>
+		</ul>		
+		
+		<h5>Midterm (due by March 20)</h5>
+
+    <p><strong>Excel</strong>: Download <a href="https://www.strongspace.com/shared/txbp1u8ang">this CSV</a> of Census data from U.S. congressional districts and open it in Excel. Each of you has been <a href="https://gist.github.com/dwillis/5016672">assigned a state</a> to focus on. Using a filter, isolate the rows for your state, and then do the following:</p>
+    
+    <ol>
+      <li>Create a column to calculate each district's percentage of the total population that the 20-24 year-old age range represents. Which district has the highest percentage of 20-24 year olds?</li>
+      <li>Do the same thing for Veteran Status:Civilian Veterans. Which district has the lowest percentage of civilian veterans?</li>
+      <li>Do the same for Male & Female. Which district has the largest percentage gap between men and women?</li>
+      <li>Create a row for your state and calculate the average number of people with a bachelor's degree for the state as a whole, and then add a column to calculate the difference between each district and the average.</li>
+    </ol>
+
+    <p><strong>SQL</strong>: Continuing with the senate voting database, write SQL to answer the following questions. You will need to study the fields in your tables.</p>
+      <ol>
+        <li>How many votes on cloture motions were agreed to?</li>
+        <li>What is the average number of Republican No votes on a vote where the question is On Passage of the Bill?</li>
+        <li>Which Democratic senator has agreed with his/her party's majority position the most times?</li>
+      </ol>
+    
+    <p>Email me the excel file with your "answers" in bold and the SQL from your queries by 5:20 p.m. on March 20.</p>
+
+		<h5>Assignments for March 20</h5>
+
+		<p><strong>PDFs</strong>: Find the Peace Corps rankings for large colleges and universities for 2010-2013 (4 years), and convert the PDF tables into a single spreadsheet with the year, college, number and rank. Using either Excel or SQLite (save the excel file as a CSV and import), answer the following question:</p>
+		<ul>
+		  <li>Which colleges have stayed in the top 25 all four years?</li>
+		</ul>
+	  <p><strong>Story Memo</strong>: Start keeping a log of your activities. <a href="data_log.pdf">Here's an example of a finished one</a> from a previous class.</p>
+
+    <p>Email me the your Excel/SQLite file and any queries you wrote, plus your story memo log by 5:20 p.m. on March 20.</p>
+      </section>
+      <footer>
+        <p><small>Hosted on <a href="https://pages.github.com">GitHub Pages</a> using the Dinky theme</small></p>
+      </footer>
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+		
+  </body>
+</html>
